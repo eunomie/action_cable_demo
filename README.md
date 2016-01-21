@@ -1,24 +1,17 @@
-## README
+## Rails 5 Action Cable demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository is a detailed version of the rails 5 action cable tutorial https://www.youtube.com/watch?v=n0WUjGkDFS0
 
-Things you may want to cover:
 
-* Ruby version
+Each little step is in a commit.
 
-* System dependencies
 
-* Configuration
+Commit message contains commands if needed.
 
-* Database creation
 
-* Database initialization
+### Launch
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Start redis: `redis /usr/local/etc/redis.conf` on my mac
+- Start rails server: `rails s`
+- Browse [http://localhost:3000](http://localhost:3000) and send messages.
+- Connect multiple browsers and see real time broadcasting of messages.
